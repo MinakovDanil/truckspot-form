@@ -764,6 +764,13 @@ jQuery(document).ready(function($) {
                             break;
                     }
 
+                    
+                    // Url страницы
+                    var pageUrl = window.location.href;
+                    // Если есть url с которого пришел пользователь
+                    if (document.referrer != '') {
+                        pageUrl = document.referrer;
+                    }
 
                     var leadData = {
                         key: "insert_key",
@@ -771,6 +778,7 @@ jQuery(document).ready(function($) {
                             campid: "insert_campid",
                             sid: '1',
                             ssid: '',
+                            page_url: pageUrl,
                             email: result['email'],
                             firstname: firstName,
                             lastname: lastName,
