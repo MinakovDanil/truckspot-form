@@ -34,7 +34,7 @@
             <div class="inp-item">
                <p class="label">My Phone</p>
                <div class="info-wrapp">
-                  <input type="text" name="phone" id="phone" autocomplete="off" class="inp inpPhone" required>
+                  <input type="text" name="phone" id="phone" autocomplete="off" class="inp inpPhone" data-rule-required="true" data-rule-minlength="17" data-rule-maxlength="17" required>
                   <label for="phone" class="phone-info">
                      <div class="info info-right"><img alt="Info" src="<?php echo get_template_directory_uri(); ?>/form/assets/images/info.svg"><span>Please enter a valid US phone number</span></div>
                   </label>
