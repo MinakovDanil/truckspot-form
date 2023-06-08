@@ -765,12 +765,6 @@ jQuery(document).ready(function($) {
                     }
 
                     
-                    // Url страницы
-                    var pageUrl = window.location.href;
-                    // Если есть url с которого пришел пользователь
-                    if (document.referrer != '') {
-                        pageUrl = document.referrer;
-                    }
 
                     var leadData = {
                         key: "insert_key",
@@ -778,7 +772,7 @@ jQuery(document).ready(function($) {
                             campid: "insert_campid",
                             sid: '1',
                             ssid: '',
-                            page_url: pageUrl,
+                            page_url: window.location.href,
                             email: result['email'],
                             firstname: firstName,
                             lastname: lastName,
