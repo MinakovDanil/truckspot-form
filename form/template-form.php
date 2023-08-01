@@ -4,12 +4,6 @@
 
 get_header(); ?>
 
-<pre>
-<?php //get_fake_data(); 
-?>
-</pre>
-
-
 <div class="form-container">
     <div class="select-container">
         <h1 class="page-form-title" id="vehicle_title">Select Vehicle Shipping Category</h1>
