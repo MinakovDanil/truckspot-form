@@ -104,7 +104,7 @@
                            <label for="is_trailer_yes-1">Yes</label>
                         </div>
                         <div class="checkbox-item">
-                           <input type="radio" name="is_trailer-" value="No" id="is_trailer_no-1">
+                           <input type="radio" name="is_trailer-1" value="No" id="is_trailer_no-1">
                            <label for="is_trailer_no-1">No</label>
                         </div>
                      </div>
